@@ -46,8 +46,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Ubuntu', sans-serif;
-  width: 50%;
-  margin: 3% auto;
+  width: 40%;
+  margin: 4% auto;
   background-color: #000000b2;
   border-radius: 15px;
   box-shadow: 0 15px 25px #000000a9;
@@ -64,7 +64,7 @@ body {
   font-weight: 600;
   font-size: 90%;
   color: #ff7f50;
-  width: 70%;
+  width: 80%;
   outline: 0;
   border-width: 0 0 2px;
   border-color: #03e9f4;
@@ -205,13 +205,14 @@ input:-webkit-autofill:active {
 /* Responsive Form */
 @media (max-width: 670px) {
   .heading {
-    font-size: 100%;
+    font-size: 15px;
   }
   .col-head {
     font-size: 105%;
+    padding: 0px 10px;
   }
   .login-form {
-    width: 60%;
+    width: 70%;
   }
   .form-btn {
     font-size: 13px;
@@ -225,8 +226,10 @@ input:-webkit-autofill:active {
 
 footer p {
   text-align: center;
-  color: #ffffff;
+  padding: 0%;
+  margin: 0%;
+  color: #414141;
   font-family: 'Ubuntu', sans-serif;
-  font-size: small;
+  font-size: 9px;
   font-weight: 700;
 }
